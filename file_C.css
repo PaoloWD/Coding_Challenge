@@ -1,0 +1,94 @@
+html{
+  width:100%;
+}
+body{
+  width: 100%;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+html, body, .container, .central-structure{
+  height: 100%;
+}
+
+.container, .transbackground, .logo, .central-structure{
+  margin: auto;
+}
+
+ .navbar, .header-text, button{
+  position: relative;
+}
+
+.first-bar, .second-bar, .third-bar{
+  border-radius: 5px;
+  height: 30px;
+}
+
+section:before{
+  content: "\21A6";
+}
+
+.container{
+    width: 75%;
+}
+
+.transbackground{
+  background-color: black;
+  width: auto;
+  height: 90%;
+  opacity: 0.3;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.top-container{
+  text-align: center;
+  margin-top: 13%;
+  color: rgb(10, 222, 10);
+  font-size: 25px;
+}
+
+.central-structure{
+  position: absolute;
+  width: 50%;
+  top: 0;
+  left: 25%;
+}
+
+.logo{
+  width: 25%;
+}
+
+.main-container{
+  font-family: ariel;
+  color: white;
+  display: inline;
+  font-size: 120%;
+}
+
+.navbar{
+  background-color:rgb(10, 222, 10);
+  padding-bottom: 2%;
+  bottom: 30px;
+}
+
+button{
+  top:5px;
+}
+
+.first-bar{
+  background-color: orange;
+  width: 35%;
+}
+
+.second-bar{
+  background-color: green;
+  width: 65%;
+}
+
+.third-bar{
+  background-color: red;
+  width: 25%;
+}
